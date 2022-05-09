@@ -1,8 +1,9 @@
 *{
     box-sizing: border-box;
 }
-.myDiv{
-    background-color: violet;
-    width: 250px;
-    height: 100px;
+.myImg{
+    width: 600px;
+    height: 500px;
+    border: 5px solid blue;
+    border-radius: 10px;
 }
