@@ -1,0 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+.myDiv{
+    background-color: violet;
+    width: 250px;
+    height: 100px;
+}
