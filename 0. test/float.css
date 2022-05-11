@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wraper{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.left{
+    width: 200px;
+    height: 100px;
+    background-color: palegoldenrod;
+    float: left;
+}
+
+.right{
+    width: 300px;
+    height: 200px;
+    background-color: palegreen;
+    float: right;
+}
+
+.footer{
+    width: 800px;
+    height: 150px;
+    background-color: aqua;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
