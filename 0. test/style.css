@@ -1,10 +1,35 @@
-*{
-    box-sizing: border-box;
-}
-.myImg{
-    width: 600px;
-    height: 500px;
-    border: 5px solid blue;
-    border-radius: 10px;
+.container{
+    background-color: antiquewhite;
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid teal;
 }
 
+.title{
+    font-family: cursive;
+    font-size: 35px;
+}
+
+.para{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.btn{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.primary-btn{
+    background-color: blue;
+    color: whitesmoke;
+    border: 2px solid blue;
+}
+
+.secondary-btn{
+    background-color: tomato;
+    color: white;
+    border: 2px solid tomato;
+}
