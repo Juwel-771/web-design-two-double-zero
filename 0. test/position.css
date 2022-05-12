@@ -1,0 +1,51 @@
+.container{
+    background-color: black;
+    width: 500px;
+    height: 360px;
+    color: aliceblue;
+    margin: 0 auto;
+    position: relative;
+}
+.box, .circle{
+    background-color: tomato;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.b{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.d{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.e{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.c{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container:hover{
+    background-color: aliceblue;
+}
