@@ -97,3 +97,22 @@ nav{
     border-radius: 0.15rem;
     display: none;
 }
+.dropdown-items-ul{
+    list-style-type: none;
+}
+.dropdown-items-li{
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.dropdown-items-li:hover{
+    background-color: #ddd;
+}
+
+.dropdown-items-li a{
+    color: #333;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: normal;
+    text-decoration: none;
+}
