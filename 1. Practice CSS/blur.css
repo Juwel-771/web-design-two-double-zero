@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 section{
@@ -23,7 +22,7 @@ section .layer2{
 }
 
 section .layer1{
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -38,7 +37,7 @@ section .layer1{
     
 }
 .layer1:hover ~ .layer2{
-    filter: blur(20px);
+    filter: blur(10px);
 }
 .layer1:hover{
     box-shadow: 0 25px 60px rgba(0, 0, 0, .8);
