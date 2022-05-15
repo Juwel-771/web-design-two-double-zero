@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    background-color: black;
+    width: 100%;
+    height: 90px;
+}
+
+label.logo{
+    font-size: 1.5rem;
+    line-height: 90px;
+    margin-left: 50px;
+    color: green;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav li{
+    display: inline-block;
+    list-style-type: none;
+    line-height: 90px;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: green;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+a.active, a:hover{
+    background-color: green;
+    color: black;
+    border-radius: 10px;
+}
