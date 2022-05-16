@@ -57,3 +57,47 @@
     background-position: left bottom;
     color: black;
 }
+#sideNav{
+    width: 230px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #009688;
+    z-index: 2;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin: 50px 20px;
+    padding: 10px;
+    transition: 0.5s all ease;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li:hover{
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+#menuBtn{
+    width: 50px;
+    height: 20px;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    z-index: 3;
+    text-align: center;
+    background: #009688;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#menuBtn img{
+    width: 20px;
+    margin-top: 5px;
+}
