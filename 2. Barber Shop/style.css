@@ -65,6 +65,7 @@
     top: 0;
     background-color: #009688;
     z-index: 2;
+    transition: 0.5s;
 }
 
 nav ul li{
@@ -86,7 +87,7 @@ nav ul li:hover{
 
 #menuBtn{
     width: 50px;
-    height: 20px;
+    height: 30px;
     position: fixed;
     right: 30px;
     top: 20px;
@@ -100,4 +101,14 @@ nav ul li:hover{
 #menuBtn img{
     width: 20px;
     margin-top: 5px;
+}
+
+@media screen and (max-width: 770px){
+    .banner-text h1{
+        font-size: 44px;
+    }
+    .banner-btn a{
+        display: block;
+        margin: 20px auto;
+    }
 }
