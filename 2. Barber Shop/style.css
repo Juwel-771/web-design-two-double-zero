@@ -412,6 +412,28 @@ hr{
     opacity: 0.1;
     position: absolute;
     left: 50%;
-    top: -40%;
+    top: -30%;
     transform: translate(-50%, 50%);
+}
+
+.social-links{
+    text-align: center;
+}
+
+.social-links .fa{
+    width: 40px;
+    height: 40px;
+    margin: 40px 5px 0;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #009688;
+    color: #009688;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.social-links .fa:hover{
+    background-color: #009688;
+    color: #fff;
+    transform: translateY(-10px);
 }
