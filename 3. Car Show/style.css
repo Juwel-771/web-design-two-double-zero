@@ -40,3 +40,10 @@ a.active, a:hover{
     color: aliceblue;
     border-radius: 3px solid cadetblue;
 }
+#img-top{
+    width: 100%;
+    background: url(img/tesla.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
