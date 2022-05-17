@@ -4,19 +4,27 @@
     box-sizing: border-box;
 }
 
+#bg-img{
+    width: 100%;
+    background: url(img/tesla-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
 nav{
     width: 100%;
     height: 80px;
-    background-color: aquamarine;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0.5;
+    position: relative;
 }
-label.logo{
-    font-size: 40px;
-    line-height: 80px;
-    margin-left: 40px;
-    color: cornflowerblue;
+
+.middle-nav{
+    display: flex;
+    justify-content: center;
 }
 nav ul{
-    float: right;
     margin-right: 40px;
     list-style-type: none;
 }
@@ -29,9 +37,10 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
     padding: 10px;
-    color: cornflowerblue;
+    color: black;
     transition: 1s;
 }
 
@@ -40,10 +49,28 @@ a.active, a:hover{
     color: aliceblue;
     border-radius: 3px solid cadetblue;
 }
-#img-top{
+
+.logo{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+}
+
+.logo-img{
     width: 100%;
-    background: url(img/tesla.jpg);
+    margin: 40px 40px 0px;
     background-size: cover;
-    background-position: center;
-    height: 100vh;
+    color: black;
+}
+
+.right-nav{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+
+.middle-text{
+   width: 100%;
+   height: 100%;
+   margin: 0 auto;
 }
