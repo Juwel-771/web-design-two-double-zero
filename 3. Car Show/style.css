@@ -312,5 +312,6 @@ a.active, a:hover{
 }
 
 .btn-1x{
-
+    background-color: #090909;
+    color: bisque;
 }
