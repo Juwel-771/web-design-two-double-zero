@@ -112,6 +112,7 @@ a.active, a:hover{
     font-weight: 700;
     font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     letter-spacing: 2px;
+    cursor: pointer;
 }
 
 .btn-1{
@@ -163,6 +164,7 @@ a.active, a:hover{
     transform: translate(-50%, -90%);
     padding: 20px;
     opacity: 0.9;
+    
 }
 
 .btn-1y, .btn-2y{
@@ -176,9 +178,75 @@ a.active, a:hover{
     font-weight: 700;
     font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     letter-spacing: 2px;
+    cursor: pointer;
 }
 
 .btn-1y{
+    background-color: #090909;
+    color: bisque;
+}
+
+#model-s{
+    width: 100%;
+    background: url(img/ModelS.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.models-container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.models-text{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    margin: 0 auto;
+    font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.models-title{
+    color: #171a17;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.models-para{
+    color: #171a17;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.modelS-button{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    padding: 20px;
+    opacity: 0.9;
+}
+
+.btn-1s, .btn-2s{
+    width: 260px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 12px;
+    border: none;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.btn-1s{
     background-color: #090909;
     color: bisque;
 }
