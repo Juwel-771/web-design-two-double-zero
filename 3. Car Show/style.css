@@ -39,15 +39,16 @@ nav ul li a{
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
+    font-weight: 800;
     padding: 10px;
-    color: black;
-    transition: 1s;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
 }
 
 nav ul li a:hover{
-    background-color: cadetblue;
-    color: aliceblue;
-    border-radius: 3px solid cadetblue;
+    background-color: grey;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
 }
 
 .logo{
