@@ -17,7 +17,7 @@ nav{
     height: 80px;
     background-color: rgba(0, 0, 0, 0);
     opacity: 0.5;
-    position: relative;
+    position: fixed;
 }
 
 .middle-nav{
@@ -70,7 +70,81 @@ a.active, a:hover{
 }
 
 .middle-text{
-   width: 100%;
-   height: 100%;
-   margin: 0 auto;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    margin: 0 auto;
+    font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.middle-title{
+    color: #171a17;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.middle-para{
+    color: #171a17;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.middle-button{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    padding: 20px;
+    opacity: 0.9;
+}
+
+.btn-1, .btn-2{
+    width: 260px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 12px;
+    border: none;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+.btn-1{
+    background-color: #090909;
+    color: bisque;
+}
+
+#model-y{
+    width: 100%;
+    background: url(img/ModelY.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.modely-text{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    margin: 0 auto;
+    font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.modely-title{
+    color: #171a17;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
 }
