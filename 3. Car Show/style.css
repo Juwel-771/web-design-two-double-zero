@@ -444,3 +444,61 @@ a.active, a:hover{
     background-color: #090909;
     color: bisque;
 }
+
+#acc{
+    width: 100%;
+    background: url(img/acc.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.acc-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.acc-text{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    margin: 0 auto;
+    font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.acc-title{
+    color: #171a17;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.acc-button{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    padding: 20px;
+    opacity: 0.9;
+}
+.btn-acc{
+    width: 260px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 12px;
+    border: none;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: #090909;
+    color: bisque;
+}
+
+.btn-1roof{
+    
+}
