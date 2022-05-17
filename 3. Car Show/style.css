@@ -70,7 +70,13 @@ nav ul li a:hover{
     top: 0%;
 }
 
-.middle-text{
+.middle-text, 
+.modely-text, 
+.models-text,
+.modelx-text,
+.solarPanel-text,
+.solarRoof-text,
+.acc-text{
     position: absolute;
     top: 15%;
     left: 50%;
@@ -79,7 +85,13 @@ nav ul li a:hover{
     font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-.middle-title{
+.middle-title,
+.modely-title,
+.models-title,
+.modelx-title,
+.solarPanel-title,
+.solarRoof-title,
+.acc-title{
     color: #171a17;
     font-size: 40px;
     text-align: center;
@@ -135,21 +147,21 @@ nav ul li a:hover{
     position: relative;
 }
 
-.modely-text{
+/* .modely-text{
     position: absolute;
     top: 15%;
     left: 50%;
     transform: translate(-50%, -15%);
     margin: 0 auto;
     font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
+} */
 
-.modely-title{
+/* .modely-title{
     color: #171a17;
     font-size: 40px;
     text-align: center;
     font-weight: 500;
-}
+} */
 
 .modely-para{
     color: #171a17;
@@ -201,21 +213,21 @@ nav ul li a:hover{
     position: relative;
 }
 
-.models-text{
+/* .models-text{
     position: absolute;
     top: 15%;
     left: 50%;
     transform: translate(-50%, -15%);
     margin: 0 auto;
     font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
+} */
 
-.models-title{
+/* .models-title{
     color: #171a17;
     font-size: 40px;
     text-align: center;
     font-weight: 500;
-}
+} */
 
 .models-para{
     color: #171a17;
@@ -266,7 +278,7 @@ nav ul li a:hover{
     position: relative;
 }
 
-.modelx-text{
+/* .modelx-text{
     position: absolute;
     top: 15%;
     left: 50%;
@@ -274,14 +286,14 @@ nav ul li a:hover{
     margin: 0 auto;
     font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
-}
+} */
 
-.modelx-title{
+/* .modelx-title{
     color: #171a17;
     font-size: 40px;
     text-align: center;
     font-weight: 500;
-}
+} */
 
 .modelx-para{
     color: #171a17;
@@ -332,21 +344,21 @@ nav ul li a:hover{
     position: relative;
 }
 
-.solarPanel-text{
+/* .solarPanel-text{
     position: absolute;
     top: 15%;
     left: 50%;
     transform: translate(-50%, -15%);
     margin: 0 auto;
     font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
+} */
 
-.solarPanel-title{
+/* .solarPanel-title{
     color: #171a17;
     font-size: 40px;
     text-align: center;
     font-weight: 500;
-}
+} */
 
 .solarPanel-para{
     color: #171a17;
@@ -396,21 +408,21 @@ nav ul li a:hover{
     position: relative;
 }
 
-.solarRoof-text{
+/* .solarRoof-text{
     position: absolute;
     top: 15%;
     left: 50%;
     transform: translate(-50%, -15%);
     margin: 0 auto;
     font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
+} */
 
-.solarRoof-title{
+/* .solarRoof-title{
     color: #171a17;
     font-size: 40px;
     text-align: center;
     font-weight: 500;
-}
+} */
 
 .solarRoof-para{
     color: #171a17;
@@ -460,14 +472,14 @@ nav ul li a:hover{
     position: relative;
 }
 
-.acc-text{
+/* .acc-text{
     position: absolute;
     top: 15%;
     left: 50%;
     transform: translate(-50%, -15%);
     margin: 0 auto;
     font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
+} */
 
 .acc-title{
     color: #171a17;
