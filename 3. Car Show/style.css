@@ -150,5 +150,35 @@ a.active, a:hover{
 }
 
 .modely-para{
-    
+    color: #171a17;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.modely-button{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    padding: 20px;
+    opacity: 0.9;
+}
+
+.btn-1y, .btn-2y{
+    width: 260px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 12px;
+    border: none;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+.btn-1y{
+    background-color: #090909;
+    color: bisque;
 }
