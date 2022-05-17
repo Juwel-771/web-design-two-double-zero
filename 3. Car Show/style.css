@@ -42,6 +42,9 @@ nav ul li a{
     font-weight: 800;
     padding: 10px;
     color: rgb(0, 0, 0);
+    /* background-color: #090909;
+    border-radius: 15px;
+    background-repeat: no-repeat; */
     transition: 0.5s;
 }
 
@@ -98,7 +101,11 @@ nav ul li a:hover{
     font-weight: 500;
 }
 
-.middle-para{
+.middle-para,
+.modely-para,
+.modelx-para,
+.solarPanel-para,
+.solarRoof-para{
     color: #171a17;
     font-size: 16px;
     text-align: center;
@@ -163,12 +170,12 @@ nav ul li a:hover{
     font-weight: 500;
 } */
 
-.modely-para{
+/* .modely-para{
     color: #171a17;
     font-size: 16px;
     text-align: center;
     margin-top: 15px;
-}
+} */
 
 .modely-button{
     position: absolute;
@@ -229,12 +236,12 @@ nav ul li a:hover{
     font-weight: 500;
 } */
 
-.models-para{
+/* .models-para{
     color: #171a17;
     font-size: 16px;
     text-align: center;
     margin-top: 15px;
-}
+} */
 
 .modelS-button{
     position: absolute;
@@ -295,12 +302,12 @@ nav ul li a:hover{
     font-weight: 500;
 } */
 
-.modelx-para{
+/* .modelx-para{
     color: #171a17;
     font-size: 16px;
     text-align: center;
     margin-top: 15px;
-}
+} */
 
 .modelX-button{
     position: absolute;
@@ -360,12 +367,12 @@ nav ul li a:hover{
     font-weight: 500;
 } */
 
-.solarPanel-para{
+/* .solarPanel-para{
     color: #171a17;
     font-size: 16px;
     text-align: center;
     margin-top: 15px;
-}
+} */
 
 .solarPanel-button{
     position: absolute;
@@ -424,12 +431,12 @@ nav ul li a:hover{
     font-weight: 500;
 } */
 
-.solarRoof-para{
+/* .solarRoof-para{
     color: #171a17;
     font-size: 16px;
     text-align: center;
     margin-top: 15px;
-}
+} */
 
 .solarRoof-button{
     position: absolute;
@@ -481,12 +488,12 @@ nav ul li a:hover{
     font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 } */
 
-.acc-title{
+/* .acc-title{
     color: #171a17;
     font-size: 40px;
     text-align: center;
     font-weight: 500;
-}
+} */
 
 .acc-button{
     position: absolute;
