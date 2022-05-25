@@ -3,5 +3,5 @@
 
 Live Preview:-
 
-[2.Barber Shop](https://barber-shop-color.netlify.app/)
+[2.Barber Shop](https://barber-shop-color.netlify.app/)</br>
 [3.Tesla Clone](https://628df4aafac0e35d3a26891e--tesla-clone-by-mj.netlify.app/)
